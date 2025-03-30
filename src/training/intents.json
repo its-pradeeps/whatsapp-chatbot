@@ -1,0 +1,104 @@
+{"intents": [ {
+  "tag": "opening",
+  "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello"],
+  "responses": ["Hey :-) welcome to __ Gym! How can I help?", "Hello, welcome to __ Gym! thanks for visiting! How can I help you?", "Hi there, welcome to __ Gym, what can I do for you?", "Hi there, welcome to __ Gym. How can I help?"]
+},
+{
+  "tag": "goodbye",
+  "patterns": ["Bye", "See you later", "Goodbye"],
+  "responses": ["See you later, thanks for visiting.", "Have a nice day!", "Bye! Come back again soon."]
+  },
+{
+  "tag": "thanks",
+  "patterns": ["Thanks", "Thank you", "Thats helpful", "Thanks a lot!"],
+  "responses": ["Happy to help!", "Any time!", "My pleasure."]
+},
+{
+  "tag": "contact",
+  "patterns": ["What is the contact number for the gym", "Phone number", "phone", "number", "contact"],
+  "responses": ["You can contact the gym admin at 9876543210.","The number for the gym is 9876543210."]
+},
+{  "tag": "timings",
+  "patterns": ["what is the timings","when are you open", "working hours", "when do you close", "when do you open", "When can we come", "duration", "timing", "timings", "time"],
+  "responses": ["You can come between 6am to 10am in the morning and 5pm to 7pm in the evening.", "We are open between 6am to 10am in the morning and 5pm to 7pm in the evening."]
+},
+{
+  "tag": "fees",
+  "patterns": ["what is the fees","how much for one month","how much do you charge","how much to pay","how much per month?", "fees", "charge"],
+  "responses": ["The fees is Rs. 1000 per month, or Rs. 10000 per annum.", "You can pay Rs. 1000 per month, or Rs. 10000 per annum.", "Rs. 1000 per month or Rs. 10000 per annum."]
+},
+{
+  "tag": "trainer",
+  "patterns": ["do you have a trainer", "is there a trainer available", "is there a guide", "trainer", "trainers"],
+  "responses": ["We have trainers at no extra charge. Our trainers are certified for instruction in yoga and cardio", "Yes we do, at no extra charge. Our trainers are certified for instruction in yoga and cardio."]
+},
+  {
+  "tag": "facility",
+  "patterns": ["what facilities are available", "do you have ac", "is there basic things", "facility", "facilities", "amenities", "what amenities are there?"],
+  "responses": ["We have 8000 sqft of area spread across three floors, pristine gym equipment, air conditioners, washrooms, changing rooms, sauna rooms, steam rooms, swimming pool, showers and other facilities."]
+},
+{
+  "tag": "equipment",
+  "patterns": ["equipment", "what equipment do you have", "what types of equipment are there", "gym equipment"],
+  "responses": ["We have treadmills, squat racks, dumbbells, barbells, bench presses, indoor cycle bikes, exercise balls, and more."]
+},
+{
+  "tag": "dress",
+  "patterns": ["dress", "dress code", "what is the dress code", "gym dress code"],
+  "responses": ["You can wear a tracksuit and a gym t-shirt (half sleeve or full sleeve), with running shoes or sneakers. Arm bands, headbands, and workout sleeves are allowed. You can change into your clothes in our changing rooms. Please bring a bag to keep your clothes."]
+},
+{
+  "tag": "rules",
+  "patterns": ["rules", "what are the rules of the gym", "what are the rules and regulations of the gym"],
+  "responses": ["1. Gym members should be respectful to other members and not be a nuisance.\\n2. Members should carry their gym membership card at all times in the gym.\\n3. After using a piece of equipment, members are expected to return it to its place, so as to not inconvenience other members.\\n4. Any equipment failure has to be reported immediately.\\n5. Members are expected to keep the gym a safe place by not violating any rules set by the trainers or other safety regulations."]
+},
+{
+  "tag": "offers",
+  "patterns": ["Any offers available?","offer", "offers", "any offers"],
+  "responses": ["Sorry, no offers are currently available.","Sorry, we don't have any offers right now.","There are no available offers right now, sorry."]
+},
+{
+  "tag": "owner",
+  "patterns": ["Information about the owner","owner", "owner info", "Who's the owner?"],
+  "responses": ["The owner is ","The gym is owned by"]
+},
+{
+  "tag": "address",
+  "patterns": ["Where is the gym located","address", "where", "location", "What is the gym address"],
+  "responses": [" is the address of the gym ","The gym is located at"]
+},
+{
+  "tag": "membership",
+  "patterns": ["membership","What are the membership benefits", "membership benifits"],
+  "responses": ["There are two memberships, Basic and Premium.\\nBasic members get access to all gym facilities except lockers, sauna and steam rooms.\\nPremium members can avail the benefit of our sauna and steam rooms, along with the locker facility. Premium members also get the benefit of a weekly training session in martial arts.\\n\\nBasic memberships cost Rs. 1000 per month or Rs. 10000 per annum.\\n\\nPremium memberships cost Rs. 2000 per month or Rs. 20000 per annum."]
+},
+{
+  "tag": "locker",
+  "patterns": ["Is there locker facility","locker", "locker facilities"],
+  "responses": ["Yes, our premium members can avail locker facilities.", "Yes, there are lockers that are available to our premium members."]
+},
+{
+  "tag": "yoga",
+  "patterns": ["yoga","Is yoga session available", "yoga training"],
+  "responses": ["Yoga training is available all days of the week to all members.", "All members can have a yoga session on all days of the week."]
+},
+{
+  "tag": "cardio",
+  "patterns": ["Cardio","cardio training", "Is cardio training available"],
+  "responses": ["Our trainers can help you in learning cardio exercises.", "We have cardio trainers available who will train you in cardio exercises."]
+},
+{
+  "tag": "martial",
+  "patterns": ["Is martial arts training available","martial arts", "fighting", "fight training", "martial arts training"],
+  "responses": ["Our martial arts program is available for our premium members. We offer training in a variety of martial arts styles such as Brazilian Jiu-jitsu, Silat, Muay Thai, Kickboxing, Wushu, Judo, Taekwondo and more.","Martial arts training in a variety of styles is available for our premium members. We offer training in Brazilian Jiu-jitsu, Silat, Muay Thai, Kickboxing, Wushu, Judo, Taekwondo and many more."]
+},
+{
+  "tag": "dumbbell",
+  "patterns": ["What is the weight range of the gym dumbbells?", "dumbbell weight"],
+  "responses": ["Our dumbbell weights are in the range of 0.5 kgs to 20 kgs.", "The dumbbell weights are in the range of 0.5 kg to 20 kg."]
+},
+{
+  "tag": "bench",
+  "patterns": ["What is the weight range of the bench press?", "bench press weight"],
+  "responses": ["Our bench press weights are in the range of 20 kgs to 200 kgs.", "The bench press weights are in the range of 20 kg to 200 kg."]
+} ] } 

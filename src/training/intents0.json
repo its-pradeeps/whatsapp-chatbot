@@ -1,0 +1,53 @@
+{"intents": [
+  {
+    "tag": "opening",
+      "patterns": [
+      "Hi",
+      "Hey",
+      "How are you",
+      "Is anyone there?",
+      "Hello"
+    ],
+    "responses": [
+      "Hey :-)",
+      "Hello, thanks for visiting",
+      "Hi there, what can I do for you?",
+      "Hi there, how can I help?"
+    ]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye"],
+    "responses": [
+      "See you later, thanks for visiting",
+      "Have a nice day",
+      "Bye! Come back again soon."
+      ]
+  },
+   {
+    "tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "Thats helpful", "Thanks a lot!"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  },
+  {
+    "tag": "timings",
+    "patterns": ["what is the timings","when are you open", "working hours", "when do you close", "when do you open",
+                 "When can we come", "duration"],
+    "responses": ["you can come between 6am to 10am in the morning and 5pm to 7pm in the evening"]
+  },
+  {
+    "tag": "fees",
+    "patterns": ["what is the fees","how much for one month","how much do you charge","how much to pay"],
+    "responses": ["The fees is 1000rs per month", "You can pay 1000rs per month", "1000rs per month and 10000 per anum"]
+  },
+  {
+    "tag": "trainer",
+    "patterns": ["do you have a trainer", "is there a trainer available", "is there a guide"],
+    "response": ["we have a trainer and at no extra charges", "yes we do"]
+  },
+  {
+    "tag": "facility",
+    "patterns": ["what facilities are available", "do you have ac", "is there basic things"],
+    "response": ["we have 4000 sqft of area, air conditioners, washrooms, swiming pool"]
+  }
+]}
