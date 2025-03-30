@@ -1,6 +1,7 @@
 # WhatsApp Chatbot
 
-An intelligent conversational agent built with Python, TensorFlow, and NLTK that integrates with WhatsApp to provide automated responses.
+An intelligent conversational agent built with Python, TensorFlow, and NLTK that integrates with WhatsApp to provide automated responses. <br>
+Devoleped as a college project in 2022.
 
 ## Overview
 
